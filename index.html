@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Game</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <body background="assets/images/tealbackground.jpg">
+    <header>
+      Crystals Collector!
+    </header>
+
+    <section id="left">
+      <p>1. You will be given a random number at the start of the game.</p>
+
+      <p>2. There are 4 crystals below. By clicking on a specific crystal you will add a specific amount of points to
+        your total score</p>
+
+      <p>3. You win the game by matching your total score to random number, you lose the game if your total score goes
+        above the random number.</p>
+
+      <p>4. The value of each crystal is hidden from you until you click on it.</p>
+
+      <p>5. Each time the game starts, the game will change the values of each crystal.</p>
+
+    </section>
+
+
+    <div id=numbers>
+      <section id="number">
+        <div id="numberGuessed">Target Number: </div>
+      </section>
+      <section id="score">
+        <div>Wins: <span id="wins"></span></div>
+        <div>Losses: <span id="losses"></span></div>
+      </section>
+    </div>
+
+      <div class="crystals">
+      <section id="first">
+        <div id="blue">
+       <img src="assets/images/blue-crystal.jpg">
+      </div>
+      </section>
+
+      <section id="second">
+        <div id="purple">
+          <img src="assets/images/purple-crystal.jpg">
+        </div>
+      </section>
+
+      <section id="third">
+        <div id="silver">
+          <img src="assets/images/silver-crystal.jpeg">
+        </div>
+      </section>
+
+      <section id="fourth">
+        <div id="orange">
+          <img src="assets/images/orange-crystal.jpeg">
+        </div>
+      </section>
+      </div>
+
+      
+      <section id="total">
+        Your total score is: 
+      </section>
+    
+      <section id="guessed">
+          
+        </section>
+        <script src="assets/javascript/game.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+  }
+  
+  header {
+    padding: 30px;
+    color: white;
+    background: #FFA500;
+    width: 25%;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    color:tan;
+    height: 430px;
+    font-size: 15px;
+    text-align: left;
+    width:40%;
+  }
+  
+  #left {
+    padding: 20px;
+    margin-bottom: 10px;
+    background:tan;
+    color: green;
+    height: 380px;
+    font-size: 15px;
+    text-align: left;
+    width:40%;
+    
+  }
+  
+  #score{
+    float: left;
+    width: 10%;
+    color:black;
+    background:lightskyblue;
+    height:100px;
+    margin-left:10px;
+  }
+  
+  
+  #number {
+    float: left;
+    width: 15%;
+    height: 100px;
+    padding: 20px;
+    color: black;
+    background:green; 
+  }
+
+
+  #first {
+    clear: both;
+    float: left;
+    width: 15%;
+    color: #fff;
+    height: 50px;
+    margin-top:-20px;
+  }
+  
+  #second {
+    float: left;
+    width: 15%;
+    color: #fff;
+    height: 50px;
+    margin-top:-20px;
+  }
+  
+  #third {
+    float: left;
+    width: 15%;
+    color: #fff;
+    height: 50px;
+    margin-top:-20px;
+  }
+
+  #fourth {
+    float: left;
+    width: 15%;
+    color: #fff;
+    height: 50px;
+    margin-top:-20px;
+  }
+
+  #total {
+    clear: both;
+    padding: 10px;
+    color: white;
+    background:teal;
+    width: 25%;
+    font-size: 20px;
+    margin-top: 300px;
+    text-align: left;
+    height: 40px;
+  }
+
+  #guessed{
+    clear: both;
+    padding: 10px;
+    color: white;
+    background:teal;
+    width: 25%;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+    height: 140px;
+  }
